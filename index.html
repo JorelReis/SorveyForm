@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link href="styles.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <main>
+      <h1 id="title">Survey form by Jorel</h1>
+      <p id="description">Thanks for coming, this survey form is one of my projects, be free to explore!</p>
+    </main>
+          <form id="survey-form">
+            <section id="section1">
+            <label id="name-label">Name:
+            <input placeholder="Enter your name" id="name" type="text" required></input></label>
+            </section>
+            
+            <section id="sectio2">
+            <label id="email-label">E-mail:
+            <input placeholder="Enter your E-mail" id="email" type="email" required></input></label>
+            </section>
+            
+            <section id="section3">
+            <label id="number-label">Number:
+            <input placeholder="Phone Number" id="number" type="number" min="10" max="120"></input></label>
+            </section>
+
+<section id="section4">
+  <select id="dropdown">
+    <option>(Choose one)</option>
+    <option>Male</option>
+    <option>Female</option>
+    <option>Other</option>
+  </select>
+  </section>
+
+<section id="section5">
+  <input type="radio" value="1" name="radio">Married</input>
+  <input type="radio" value="2" name="radio">Single</input>
+</section>
+
+<section id="section6">
+  <input type="checkbox" value="x" >unemployed</input>
+  <input type="checkbox" value="y" >employee</input>
+  </section>
+
+<section id="section7">
+  <textarea placeholder="Give a opinion:"></textarea>
+  </section>
+
+  <input type="submit"id="submit"></input>
+          </form>
+          
+         
+    </body>
